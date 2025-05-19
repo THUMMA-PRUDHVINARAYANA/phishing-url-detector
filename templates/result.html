@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prediction Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #00f7ff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+    .result {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+    a {
+      color: #00f7ff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      border: 1px solid #00f7ff;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    a:hover {
+      background-color: #00f7ff;
+      color: #000;
+    }
+  </style>
+</head>
+<body>
+  <div class="result">{{ prediction }}</div>
+  <a href="/">Check another URL</a>
+</body>
+</html>

@@ -1,0 +1,9 @@
+URL,Label
+http://example.com,0
+https://secure-bank.com,0
+http://phishing-site.com/login,1
+http://malicious-site.net,1
+https://google.com,0
+http://fake-login.com,1
+http://safe-website.org,0
+http://dangerous-site.ru,1
